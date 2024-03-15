@@ -11,4 +11,7 @@ node (){
   stage("Inits"){
     sh 'ls -la' 
   }
+  stage("Build"){
+    sh 'ls -la' 
+  }
 }
