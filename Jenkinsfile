@@ -9,9 +9,9 @@ node (){
 
   }
   stage("Init"){
-    sh 'ls -la' 
+    sh './gradlew tasks' 
   }
   stage("Build"){
-    sh 'ls -la' 
+    sh './gradlew build' 
   }
 }
