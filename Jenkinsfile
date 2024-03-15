@@ -9,6 +9,7 @@ node (){
 
   }
   stage("Init"){
+    sh "chmod +x gradlew"
     sh './gradlew tasks' 
   }
   stage("Build"){
